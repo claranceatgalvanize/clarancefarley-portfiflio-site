@@ -1,0 +1,70 @@
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+>   G L O B A L   S T Y L E S
+*/
+
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:300,400');
+body {
+    font-family: Lato, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page_wrapper {
+    background: #fff;
+    width: 100%;
+}
+
+.caption,
+.discription {
+    color: #333;
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+>    M A I N
+*/
+
+.contact_info {
+    background: #E5E5E5;
+    height: 100%;
+}
+
+.brand_img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 50%;
+    width: 100px;
+}
+
+.caption {
+    font-size: 2rem;
+    font-family: 'Rokkitt', serif;
+}
+
+.sub_caption {
+    font-size: 1rem;
+    font-family: lato, sans-serif
+}
+
+.discription {
+    font-weight: 700
+}
+
+
+/*+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+>    M E D I A   Q U E R Y
+*/
+
+@media (max-width: 575px) {
+    .page_wrapper {
+        padding: 1rem;
+    }
+    .contact_info {
+        padding: 3rem;
+    }
+    .footer {
+        margin-top: 8px;
+    }
+    .social_link {
+        margin-left: 30px;
+    }
+}

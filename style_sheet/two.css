@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:300,400');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    color: #fff;
+    /* background-color: #111; */
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar_wrapper{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li {
+    margin-left: 50px;
+}
+
+.brand {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.say_hi {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 4px 10px;
+}
+
+.fold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background:    linear-gradient(
+        rgba(0, 0, 0, 0.80), 
+        rgba(0, 0, 0, 0.80)
+      ),url(https://bit.ly/2LDL8Z9);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    width: 50%;
+    letter-spacing: 1.08px;
+    line-height: 24px;
+    margin-left: 40px;
+    padding-right: 90px; 
+}
+
+.intro_prg, p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.intro_lead {
+ font-size: 2em;
+ margin-bottom: 10px;
+}
+
+hr {
+    border: 0.5px solid #fff;
+}
+
+.about_me * {
+    color: #000;
+}
+
+.about_me  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 32px;
+    font-size: 1.4em;
+    height: 30vh;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8em;
+    border-radius: 2px;
+    border: 1px solid #000;
+}
+
+.work {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_wrapper {
+    display: flex;
+}
+
+.img_container {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+
+}
+
+.work img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.work_title {
+    padding: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+}
+
+.contact {
+    background:    
+    linear-gradient(
+    rgba(0, 0, 0, 0.80), 
+    rgba(0, 0, 0, 0.90)
+    ),url(https://bit.ly/2E4FyZC);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+}
+
+.fab {
+    margin: 30px;
+}
+
+.footer {
+    background: #000;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+
+.footer img {
+    width: 20px;
+}
